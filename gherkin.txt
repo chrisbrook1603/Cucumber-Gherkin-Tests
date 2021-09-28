@@ -1,0 +1,27 @@
+Given...A user is on the home page
+When...the user selects the login button
+Then...they should be taken to the login page
+
+Given...A user is on the login page
+When...the user selects the username field
+Then...they should be able to enter their username
+
+Given...A user has the username box active
+When...the user presses 'Tab'
+Then...they should be moved to the password field
+
+Given...A user is on the login page
+When...the user selects the password field
+Then...they should be able to enter their password
+
+Given...A user has the password field selected
+When...the user enters their password
+Then...the password characters should be obsefecated
+
+Given...A user is on the login page
+When...the user enters the correct credentials
+Then...they will be taken to the account profile screen
+
+Given...A user is on the login page
+When...the user enters incorrect credentials
+Then...an error message will appear to advise the credentials are incorrect
